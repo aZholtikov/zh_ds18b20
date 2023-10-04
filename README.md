@@ -34,13 +34,13 @@ void app_main(void)
         printf("Temperature: %f\n", temperature);
         break;
     case ESP_FAIL:
-        printf("There are no 1-Wire device available on the bus or the device is not responding\n");
+        printf("There are no 1-Wire device available on the bus or the device is not responding.\n");
         break;
     case ESP_ERR_INVALID_CRC:
-        printf("More than one 1-Wire device is present on the bus\n");
+        printf("More than one 1-Wire device is present on the bus.\n");
         break;
     case ESP_ERR_INVALID_RESPONSE:
-        printf("Device is available but not responding or incorrect rom value\n");
+        printf("Device is available but not responding or incorrect rom value.\n");
         break;
     default:
         break;
