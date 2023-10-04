@@ -58,7 +58,7 @@ void app_main(void)
 {
     uint8_t *rom = NULL;
     float temperature = 0;
-    ESP_ERROR_CHECK(zh_ds18b20_init(GPIO_NUM_22));
+    ESP_ERROR_CHECK(zh_ds18b20_init(GPIO));
     if (zh_onewire_reset() == ESP_FAIL)
     {
         printf("There are no 1-Wire devices available on the bus.\n");
