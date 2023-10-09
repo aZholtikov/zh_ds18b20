@@ -6,8 +6,8 @@ In an existing project, run the following command to install the components:
 
 ```text
 cd ../your_project/components
-git copy http://git.zh.com.ru/alexey.zholtikov/zh_onewire.git
-git copy http://git.zh.com.ru/alexey.zholtikov/zh_ds18b20.git
+git clone http://git.zh.com.ru/alexey.zholtikov/zh_onewire.git
+git clone http://git.zh.com.ru/alexey.zholtikov/zh_ds18b20.git
 ```
 
 In the application, add the component:
