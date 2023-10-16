@@ -1,7 +1,5 @@
 # ESP32 ESP-IDF and ESP8266 RTOS SDK component for 1-Wire DS18B20 sensor
 
-There are two branches - for ESP8266 family and for ESP32 family. Please use the appropriate one.
-
 ## Using
 
 In an existing project, run the following command to install the components:
