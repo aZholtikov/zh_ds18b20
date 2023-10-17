@@ -1,5 +1,7 @@
 #pragma once
 
+#include "stdio.h"
+#include "esp_err.h"
 #include "zh_onewire.h"
 
 #ifdef __cplusplus
