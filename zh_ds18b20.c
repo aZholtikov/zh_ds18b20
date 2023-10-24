@@ -54,7 +54,7 @@ esp_err_t zh_ds18b20_read_temp(const uint8_t *device, float *temperature)
     temp[0] = zh_onewire_read_byte();
     temp[1] = zh_onewire_read_byte();
     *temperature = (float)(temp[0] + (temp[1] * 256)) / 16;
-    if (*temperature == 4095.937500)
+    if (*temperature > 125 || *temperature < -55)
     {
         return ESP_ERR_INVALID_RESPONSE;
     }

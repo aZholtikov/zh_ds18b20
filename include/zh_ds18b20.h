@@ -31,7 +31,7 @@ extern "C"
      *              - ESP_OK if read was successful
      *              - ESP_FAIL if there are no 1-Wire device available on the bus or the device is not responding
      *              - ESP_ERR_INVALID_CRC if more than one 1-Wire device is present on the bus (case device is NULL)
-     *              - ESP_ERR_INVALID_RESPONSE if device is available but not responding or incorrect rom value (case device is not NULL)
+     *              - ESP_ERR_INVALID_RESPONSE if device is available but not responding (or wrong readed value) or incorrect rom value (case device is not NULL)
      */
     esp_err_t zh_ds18b20_read_temp(const uint8_t *device, float *temperature);
 
