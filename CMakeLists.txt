@@ -1,0 +1,1 @@
+idf_component_register(SRCS "zh_ds18b20.c" INCLUDE_DIRS "include" REQUIRES zh_onewire)
