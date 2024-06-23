@@ -1,9 +1,3 @@
-/**
- * @file
- * Header file for the zh_ds18b20 component.
- *
- */
-
 #pragma once
 
 #include "stdio.h"

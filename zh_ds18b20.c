@@ -1,19 +1,11 @@
-/**
- * @file
- * The main code of the zh_ds18b20 component.
- *
- */
-
 #include "zh_ds18b20.h"
 
-/// \cond
 #define SCRATCHPAD_LENGTH 8 // Scratchpad length.
 
 #define CONVERT_TEMPERATURE 0x44 // Initiates temperature conversion.
 #define READ_SCRATCHPAD 0xBE     // Reads bytes from scratchpad.
 
 #define pgm_read_byte(addr) (*(const uint8_t *)(addr))
-/// \endcond
 
 static uint8_t _crc_calculate(const uint8_t *scratchpad);
 
