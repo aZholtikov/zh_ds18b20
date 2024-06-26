@@ -9,8 +9,6 @@
 
 1. [zh_onewire](https://github.com/aZholtikov/zh_onewire.git)
 
-## [Function description](http://zh-ds18b20.zh.com.ru)
-
 ## Using
 
 In an existing project, run the following command to install the components:
